@@ -15,13 +15,46 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ask Me Anything..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tL8-Ok-Jvu">
+                                <rect key="frame" x="71" y="122" width="272" height="37"/>
+                                <fontDescription key="fontDescription" name="GeezaPro-Bold" family="Geeza Pro" pointSize="30"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ball5" translatesAutoresizingMaskIntoConstraints="NO" id="fR6-0D-c3X">
+                                <rect key="frame" x="71" y="218" width="272" height="273.5"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rqs-Kw-OLU">
+                                <rect key="frame" x="118" y="578" width="179" height="49"/>
+                                <color key="backgroundColor" red="0.42644462305396347" green="0.77311977920875052" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="30"/>
+                                <state key="normal" title="ASK AWAY!">
+                                    <color key="titleColor" red="0.92156862750000001" green="0.92549019610000005" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.49019607843137253" green="0.82352941176470584" blue="0.99607843137254903" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Rqs-Kw-OLU" secondAttribute="trailing" constant="117" id="7eh-1F-RkL"/>
+                            <constraint firstItem="fR6-0D-c3X" firstAttribute="top" secondItem="tL8-Ok-Jvu" secondAttribute="bottom" constant="59" id="F2r-Es-uGN"/>
+                            <constraint firstItem="Rqs-Kw-OLU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="118" id="FQO-k2-3Ys"/>
+                            <constraint firstItem="Rqs-Kw-OLU" firstAttribute="top" secondItem="fR6-0D-c3X" secondAttribute="bottom" constant="86.5" id="KwD-FG-WDA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tL8-Ok-Jvu" secondAttribute="trailing" constant="71" id="XP2-sg-eFk"/>
+                            <constraint firstItem="tL8-Ok-Jvu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="78" id="Zca-Rp-crj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fR6-0D-c3X" secondAttribute="trailing" constant="71" id="rbK-Ti-nA7"/>
+                            <constraint firstItem="fR6-0D-c3X" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="71" id="tzN-ch-nyf"/>
+                            <constraint firstItem="tL8-Ok-Jvu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="71" id="wGc-sM-KEI"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="80"/>
+            <point key="canvasLocation" x="-1255.072463768116" y="-224.33035714285714"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ball5" width="305" height="273.5"/>
+    </resources>
 </document>
