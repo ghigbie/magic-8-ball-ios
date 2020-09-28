@@ -33,6 +33,18 @@
                                     <color key="titleColor" red="0.92156862750000001" green="0.92549019610000005" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hDd-6W-Nlt">
+                                <rect key="frame" x="118" y="578" width="179" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.42644462309999998" green="0.77311977919999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="30"/>
+                                <state key="normal" title="ASK AWAY!">
+                                    <color key="titleColor" red="0.92156862750000001" green="0.92549019610000005" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="askAway:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OYs-eR-Ato"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.49019607843137253" green="0.82352941176470584" blue="0.99607843137254903" alpha="1" colorSpace="calibratedRGB"/>
@@ -48,6 +60,10 @@
                             <constraint firstItem="tL8-Ok-Jvu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="71" id="wGc-sM-KEI"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mainButton" destination="hDd-6W-Nlt" id="bvH-3V-HBT"/>
+                        <outlet property="mainImage" destination="fR6-0D-c3X" id="5dy-SB-c79"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
